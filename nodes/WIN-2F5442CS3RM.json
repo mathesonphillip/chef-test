@@ -1,0 +1,598 @@
+{
+  "name": "WIN-2F5442CS3RM",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "default": {
+    "PS": {
+      "Path": "c:\\users\\administrator\\github\\bluedoor-chef\\cookbooks\\common\\local-mode-cache\\cache\\cookbooks\\common\\files\\powershell",
+      "SystemLocale": {
+        "SystemLocale": "en-AU"
+      },
+      "SetDNS": {
+        "InterfaceIndex": "12",
+        "NewServerAddress": "8.8.8.8, 10.10.10.10",
+        "AddressFamily": "IPv4"
+      }
+    },
+    "staging-dir": "C:\\Test1\\",
+    "test-dir": "C:\\Test2\\"
+  },
+  "automatic": {
+    "cpu": {
+      "0": {
+        "cores": 2,
+        "vendor_id": "GenuineIntel",
+        "family": "1",
+        "model": "16130",
+        "stepping": "2",
+        "physical_id": "CPU0",
+        "model_name": "Intel64 Family 6 Model 63 Stepping 2",
+        "mhz": "2400",
+        "cache_size": " KB"
+      },
+      "total": 2,
+      "cores": 2,
+      "real": 1
+    },
+    "filesystem": {
+      "C:": {
+        "kb_size": 31843151,
+        "kb_available": 9249804,
+        "kb_used": 22593347,
+        "percent_used": 70,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": ""
+      }
+    },
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume1",
+        "build_number": "9600",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows Server 2012 R2 Standard",
+        "code_set": "1252",
+        "country_code": "1",
+        "creation_class_name": "Win32_OperatingSystem",
+        "cs_creation_class_name": "Win32_ComputerSystem",
+        "csd_version": null,
+        "cs_name": "WIN-2F5442CS3RM",
+        "current_time_zone": 0,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 3,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 2,
+        "free_physical_memory": "2964844",
+        "free_space_in_paging_files": "8388608",
+        "free_virtual_memory": "11313632",
+        "install_date": "20170307005237.000000+000",
+        "large_system_cache": null,
+        "last_boot_up_time": "20170307221426.494460+000",
+        "local_date_time": "20170308051203.071000+000",
+        "locale": "0409",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "137438953344",
+        "mui_languages": [
+          "en-US"
+        ],
+        "name": "Microsoft Windows Server 2012 R2 Standard|C:\\Windows|\\Device\\Harddisk0\\Partition2",
+        "number_of_licensed_users": 0,
+        "number_of_processes": 48,
+        "number_of_users": 1,
+        "operating_system_sku": 7,
+        "organization": "Amazon.com",
+        "os_architecture": "64-bit",
+        "os_language": 1033,
+        "os_product_suite": 272,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "portable_operating_system": false,
+        "primary": true,
+        "product_type": 3,
+        "registered_user": "EC2",
+        "serial_number": "00252-70000-00000-AA535",
+        "service_pack_major_version": 0,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "8388608",
+        "status": "OK",
+        "suite_mask": 272,
+        "system_device": "\\Device\\HarddiskVolume2",
+        "system_directory": "C:\\Windows\\system32",
+        "system_drive": "C:",
+        "total_swap_space_size": null,
+        "total_virtual_memory_size": "12582512",
+        "total_visible_memory_size": "4193904",
+        "version": "6.3.9600",
+        "windows_directory": "C:\\Windows"
+      },
+      "name": "Microsoft Windows Server 2012 R2 Standard",
+      "release": "6.3.9600",
+      "version": "6.3.9600  Build 9600",
+      "os": "WINNT",
+      "cs_info": {
+        "admin_password_status": 3,
+        "automatic_managed_pagefile": false,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": null,
+        "boot_option_on_watch_dog": null,
+        "boot_rom_supported": true,
+        "bootup_state": "Normal boot",
+        "caption": "WIN-2F5442CS3RM",
+        "chassis_bootup_state": 3,
+        "creation_class_name": "Win32_ComputerSystem",
+        "current_time_zone": 0,
+        "daylight_in_effect": null,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "WIN-2F5442CS3RM",
+        "domain": "WORKGROUP",
+        "domain_role": 2,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 3,
+        "hypervisor_present": true,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 3,
+        "last_load_info": null,
+        "manufacturer": "Xen",
+        "model": "HVM domU",
+        "name": "WIN-2F5442CS3RM",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 2,
+        "number_of_processors": 1,
+        "oem_string_array": [
+          "Xen"
+        ],
+        "part_of_domain": false,
+        "pause_after_reset": "-1",
+        "pc_system_type": 1,
+        "pc_system_type_ex": 1,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 3,
+        "power_state": 0,
+        "power_supply_state": 3,
+        "primary_owner_contact": null,
+        "primary_owner_name": "EC2",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "NT",
+          "Server_NT"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 3,
+        "total_physical_memory": "4294557696",
+        "user_name": null,
+        "wake_up_type": 6,
+        "workgroup": "WORKGROUP"
+      },
+      "machine": "x86_64"
+    },
+    "memory": {
+      "swap": {
+        "total": "8388608kB",
+        "free": "8388608kB"
+      },
+      "total": "4193904kB",
+      "free": "2963656kB"
+    },
+    "network": {
+      "interfaces": {
+        "0xc": {
+          "configuration": {
+            "ip_address": [
+              "172.31.6.96",
+              "fe80::a9a9:6025:2f77:788f"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000009] AWS PV Network Device",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "172.31.0.1"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "AWS PV Network Device #0",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "20170308054443.000000+000",
+            "dhcp_lease_obtained": "20170308044443.000000+000",
+            "dhcp_server": "172.31.0.1",
+            "dns_domain": "ap-southeast-2.compute.internal",
+            "dns_domain_suffix_search_order": [
+              "ap-southeast-2.ec2-utilities.amazonaws.com",
+              "us-east-1.ec2-utilities.amazonaws.com",
+              "ec2-utilities.amazonaws.com",
+              "ec2.internal",
+              "compute-1.internal",
+              "ap-southeast-2.compute.internal"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "WIN-2F5442CS3RM",
+            "dns_server_search_order": [
+              "8.8.8.8"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0
+            ],
+            "igmp_level": null,
+            "index": 9,
+            "interface_index": 12,
+            "ip_connection_metric": 10,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.240.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "0A:1B:1E:C5:74:B1",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "xennet",
+            "setting_id": "{C7BAFAFE-DBF4-4C76-B406-8A25283E4CF9}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000009] AWS PV Network Device",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "AWS PV Network Device",
+            "device_id": "9",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{C7BAFAFE-DBF4-4C76-B406-8A25283E4CF9}",
+            "index": 9,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 12,
+            "last_error_code": null,
+            "mac_address": "0A:1B:1E:C5:74:B1",
+            "manufacturer": "Amazon Inc.",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "AWS PV Network Device #0",
+            "net_connection_id": "Ethernet",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "XENVIF\\VEN_XS0001&DEV_NET&REV_00000000\\0",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "AWS PV Network Device",
+            "service_name": "xennet",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "WIN-2F5442CS3RM",
+            "time_of_last_reset": "20170307221426.494460+000"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "172.31.6.96": {
+              "prefixlen": "20",
+              "netmask": "255.255.240.0",
+              "broadcast": "172.31.15.255",
+              "family": "inet"
+            },
+            "fe80::a9a9:6025:2f77:788f": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "0A:1B:1E:C5:74:B1": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "169.254.169.254": "0a:6f:4a:5c:66:59",
+            "172.31.0.1": "0a:6f:4a:5c:66:59",
+            "172.31.0.2": "0a:6f:4a:5c:66:59",
+            "172.31.15.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        }
+      },
+      "default_gateway": "172.31.0.1",
+      "default_interface": "0xc"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "172.31.6.96",
+    "macaddress": "0A:1B:1E:C5:74:B1",
+    "ip6address": "fe80::a9a9:6025:2f77:788f",
+    "os": "windows",
+    "os_version": "6.3.9600",
+    "platform": "windows",
+    "platform_version": "6.3.9600",
+    "platform_family": "windows",
+    "uptime_seconds": 25057,
+    "uptime": "6 hours 57 minutes 37 seconds",
+    "virtualization": {
+      "systems": {
+        "xen": "guest"
+      },
+      "system": "xen",
+      "role": "guest"
+    },
+    "languages": {
+      "perl": {
+        "version": "5.8.8",
+        "archname": "msys-64int"
+      },
+      "powershell": {
+        "version": "4.0",
+        "ws_man_stack_version": "3.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "4.0.30319.42000",
+        "build_version": "6.3.9600.17400",
+        "compatible_versions": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0"
+        ],
+        "remoting_protocol_version": "2.2"
+      },
+      "ruby": {
+        "platform": "i386-mingw32",
+        "version": "2.3.1",
+        "release_date": "2016-04-26",
+        "target": "i386-w64-mingw32",
+        "target_cpu": "i386",
+        "target_vendor": "w64",
+        "target_os": "mingw32",
+        "host": "i686-w64-mingw32",
+        "host_cpu": "i686",
+        "host_os": "mingw32",
+        "host_vendor": "w64",
+        "bin_dir": "C:/opscode/chefdk/embedded/bin",
+        "ruby_bin": "C:/opscode/chefdk/embedded/bin/ruby",
+        "gems_dir": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0",
+        "gem_bin": "C:/opscode/chefdk/embedded/bin/gem"
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "12.18.31",
+        "chef_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.18.31-universal-mingw32/lib"
+      },
+      "ohai": {
+        "version": "8.23.0",
+        "ohai_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/ohai-8.23.0/lib/ohai"
+      }
+    },
+    "dmi": {
+
+    },
+    "ec2": {
+      "ami_id": "ami-059d9866",
+      "ami_launch_index": "0",
+      "ami_manifest_path": "(unknown)",
+      "block_device_mapping_ami": "/dev/sda1",
+      "block_device_mapping_root": "/dev/sda1",
+      "hostname": "ip-172-31-6-96.ap-southeast-2.compute.internal",
+      "instance_action": "none",
+      "instance_id": "i-0c06a370e138e7a58",
+      "instance_type": "t2.medium",
+      "local_hostname": "ip-172-31-6-96.ap-southeast-2.compute.internal",
+      "local_ipv4": "172.31.6.96",
+      "mac": "0a:1b:1e:c5:74:b1",
+      "metrics_vhostmd": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+      "network_interfaces_macs": {
+        "0a:1b:1e:c5:74:b1": {
+          "device_number": "0",
+          "interface_id": "eni-836f82db",
+          "ipv4-associations": {
+            "13.54.108.242": "172.31.6.96"
+          },
+          "local_hostname": "ip-172-31-6-96.ap-southeast-2.compute.internal",
+          "local_ipv4s": "172.31.6.96",
+          "mac": "0a:1b:1e:c5:74:b1",
+          "owner_id": "334166209980",
+          "public_hostname": "ec2-13-54-108-242.ap-southeast-2.compute.amazonaws.com",
+          "public_ipv4s": "13.54.108.242",
+          "security_group_ids": "sg-6f388308\nsg-713f8416",
+          "security_groups": "launch-wizard-11\nchef-all",
+          "subnet_id": "subnet-bb0efee2",
+          "subnet_ipv4_cidr_block": "172.31.0.0/20",
+          "vpc_id": "vpc-21d2de44",
+          "vpc_ipv4_cidr_block": "172.31.0.0/16"
+        }
+      },
+      "placement_availability_zone": "ap-southeast-2c",
+      "profile": "windows-hvm",
+      "public_hostname": "ec2-13-54-108-242.ap-southeast-2.compute.amazonaws.com",
+      "public_ipv4": "13.54.108.242",
+      "public_keys_0_openssh_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiEmHHrx+7OuB6PxXkFfHw0QHeQdh0E0OG4BDQkDKCjpl/UTHuwR+ayaGxQiWIOxpbikhKafYsmJLnEwzzMS78mIukCYRg1Sz+9Y7vbev2nVUmILMAi7zQjaJErw9SXvmCywEZAVgZIj42xtyhQt/bSc70XYImmQusn6gJfKt7qD2FSehHz19O6AzjVBsYll7Ga651A65yvQHP9p48BGvulB2HXmrtAx0fuEIQvBu7Dc1FnqRjWjVT/VoVw86o5S37v08l/vPnTruexUMTPLoFfqPurh9NjOzC1VVsfxdgSIR1vWt0BRltDne9xCwvYTU+j+HVjhiEc00wDpabZXK1 matheson-phillip-chef\n",
+      "reservation_id": "r-005b81f1f8e876126",
+      "security_groups": [
+        "launch-wizard-11",
+        "chef-all"
+      ],
+      "services_domain": "amazonaws.com",
+      "userdata": null,
+      "account_id": "334166209980"
+    },
+    "json?": "{\n  \"privateIp\" : \"172.31.6.96\",\n  \"devpayProductCodes\" : null,\n  \"availabilityZone\" : \"ap-southeast-2c\",\n  \"version\" : \"2010-08-31\",\n  \"region\" : \"ap-southeast-2\",\n  \"instanceId\" : \"i-0c06a370e138e7a58\",\n  \"billingProducts\" : [ \"bp-6ba54002\" ],\n  \"instanceType\" : \"t2.medium\",\n  \"accountId\" : \"334166209980\",\n  \"kernelId\" : null,\n  \"ramdiskId\" : null,\n  \"architecture\" : \"x86_64\",\n  \"imageId\" : \"ami-059d9866\",\n  \"pendingTime\" : \"2017-03-07T22:14:15Z\"\n}",
+    "cloud": {
+      "public_ips": [
+        "13.54.108.242"
+      ],
+      "private_ips": [
+        "172.31.6.96"
+      ],
+      "public_ipv4": "13.54.108.242",
+      "public_hostname": "ec2-13-54-108-242.ap-southeast-2.compute.amazonaws.com",
+      "local_ipv4": "172.31.6.96",
+      "local_hostname": "ip-172-31-6-96.ap-southeast-2.compute.internal",
+      "provider": "ec2"
+    },
+    "cloud_v2": {
+      "public_ipv4_addrs": [
+        "13.54.108.242"
+      ],
+      "local_ipv4_addrs": [
+        "172.31.6.96"
+      ],
+      "provider": "ec2",
+      "public_hostname": "ec2-13-54-108-242.ap-southeast-2.compute.amazonaws.com",
+      "local_hostname": "ip-172-31-6-96.ap-southeast-2.compute.internal",
+      "public_ipv4": "13.54.108.242",
+      "local_ipv4": "172.31.6.96"
+    },
+    "command": {
+
+    },
+    "hostname": "WIN-2F5442CS3RM",
+    "machinename": "WIN-2F5442CS3RM",
+    "fqdn": "WIN-2F5442CS3RM",
+    "domain": null,
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "fips": {
+      "kernel": {
+        "enabled": false
+      }
+    },
+    "ohai_time": 1488949926.989801,
+    "packages": {
+      "Git version 2.12.0": {
+        "version": "2.12.0",
+        "publisher": "The Git Development Community",
+        "installdate": "20170307"
+      },
+      "AWS PV Drivers": {
+        "version": "7.4.3",
+        "publisher": "Amazon Web Services",
+        "installdate": "20161110"
+      },
+      "aws-cfn-bootstrap": {
+        "version": "1.4.15 ",
+        "publisher": "Amazon Web Services",
+        "installdate": "20161214"
+      },
+      "Amazon SSM Agent": {
+        "version": "2.0.599.0",
+        "publisher": "Amazon Web Services"
+      },
+      "EC2ConfigService": {
+        "version": "4.2.1442.0",
+        "publisher": "Amazon Web Services"
+      },
+      "Sublime Text Build 3126": {
+        "publisher": "Sublime HQ Pty Ltd",
+        "installdate": "20170307"
+      },
+      "Chef Development Kit v1.2.22": {
+        "version": "1.2.22.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20170307"
+      },
+      "AWS Tools for Windows": {
+        "version": "3.13.670.0",
+        "publisher": "Amazon Web Services Developer Relations",
+        "installdate": "20170110"
+      }
+    },
+    "root_group": "Administrators",
+    "time": {
+      "timezone": "Coordinated Universal Time"
+    },
+    "recipes": [
+      "common::setup"
+    ],
+    "expanded_run_list": [
+      "common::setup"
+    ],
+    "roles": [
+
+    ],
+    "cookbooks": {
+      "common": {
+        "version": "0.1.0"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[common::setup]"
+  ]
+}
